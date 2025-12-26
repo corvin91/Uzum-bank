@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Uzum Card</title>
+</head>
+
+<body class="font-[Arial]">
+
+  <header id="header text-gray-500"
+    class="fixed top-0 left-0 w-full bg-white border-b border-gray-200 z-50 transition-transform duration-300">
+
+    <nav class="max-w-[1440px] mx-auto flex items-center justify-between py-4 pb-8 px-6">
+
+      <div class="flex items-center gap-8">
+        <img class="h-10 w-[full]" src="./img/uzumbank-logo-light.f4c13a0.svg fill.png" alt="logo">
+
+        
+
+        <h2 class="px-4 py-3 rounded-xl text-[16px] font-medium bg-[#f4f1ff] text-[#5b2eff] relative">
+          Jismoniy shaxslarga
+
+          <span class="absolute -bottom-3 left-1/2 -translate-x-1/2 w-[70%] h-[2px] bg-[#5b2eff]">
+          </span>
+        </h2>
+
+        <a href="" class="px-4 py-3 rounded-xl text-[16px] font-medium hover:bg-gray-100">
+          Biznesga
+        </a>
+      </div>
+
+      <div class="flex items-center gap-6">
+        <button>
+          <img class="w-10" src="./img/Button menu.png" alt="">
+        </button>
+
+        <div class="relative">
+          <button id="langBtn" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-white text-gray-400
+            hover:shadow-md transition text-sm font-medium">
+
+            <img class="w-4 h-4" src="./img/Icon.png" alt="">
+            <span id="currentLang">O‘zbek</span>
+            <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div id="langMenu" class="absolute right-0 mt-2 w-36 bg-white border border-gray-200 rounded-xl
+           shadow-lg hidden overflow-hidden z-50 text-gray-500">
+
+            <button onclick="setLang('O‘zbek')" class="w-full text-left px-4 py-2 text-sm hover:bg-gray-100">
+              O‘zbek
+            </button>
+
+            <button onclick="setLang('Русский')" class="w-full text-left px-4 py-2 text-sm hover:bg-gray-100">
+              Русский
+            </button>
+
+            <button onclick="setLang('English')" class="w-full text-left px-4 py-2 text-sm hover:bg-gray-100">
+              English
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <nav class="max-w-[1440px] mx-auto flex items-center justify-between py-4 pb-8 px-6">
+      <div class="flex justify-between items-center gap-[710px]">
+        <div class="flex justify-start items-center gap-[40px]">
+          <p>Mahsulotlar</p>
+          <p>Xizmatlar</p>
+          <p>Biz haqimizda</p>
+          <p>Biz haqimizda</p>
+        </div>
+        <div class="flex justify-center items-center">
+          <input type="text"><img src="./img/poisk.png" alt="">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="max-w-[1440px] mx-auto mt-10 pt-[130px]">
+
+    <section
+      class="relative rounded-[40px] p-[84px] h-[751px] bg-gradient-to-b from-[#e9d9ff] via-[#8b3dff] to-[#6a00ff]">
+      <img src="./img/Picture → uzum card image.png" alt="">
+      <img class="absolute right-[100px] top-[10px]" src="./img/Background+Shadow.png" alt="">
+
+      <h2 class="text-white text-[52px] font-bold">
+        Uzum karta bor — pul bor
+      </h2>
+
+      <div class="flex justify-between items-end mt-7">
+        <p class="text-white text-[24px] w-[722px] leading-relaxed">
+          30 kunga 25 million so‘mgacha<br>
+          foizsiz mikroqarzlar<br>
+          Rasmiylashtirish, xizmat ko‘rsatish va hisobni to‘ldirish bepul
+        </p>
+
+        <button class="w-[257px] h-[98px] bg-white rounded-full flex items-center justify-between px-6">
+          <span class="text-[22px] font-bold text-[#383838]">Batafsil</span>
+          <img class="w-[84px] h-[84px]" src="./img/arrow-right-icon.svg.png" alt="">
+        </button>
+      </div>
+
+    </section>
+
+    <section class="mt-20">
+      <h2 class="text-3xl font-bold text-purple-900 text-[40px]">
+        Komissiyasiz o‘tkazmalar
+      </h2>
+
+      <div class="pb-[100px]">
+        <div class="flex justify-center gap-x-10 items-center bg-slate-300]">
+          <div class="flex flex-col justify-start items-start gap-7">
+            <h1 class="text-3xl font-medium text-[40px]">Boshqa bank kartalariga</h1>
+            <div class="text-pretty">
+              <p class="pb-[5px]">Uzum kartadan Uzcard va Humo’ga 100 000 000 <br>
+                so‘mgacha o‘tkazmalarni komissiyasiz yuboring. <br>
+                Aksiyani faollashtirish uchun Uzum karta bilan <br>
+                transport, muddatli to‘lov va mikroqarzdan tashqari, 5 <br>
+                ta to‘lov amalga oshiring</p>
+              <p>Uzum kartalari o‘rtasidagi o‘tkazmalar doimo bepul</p>
+            </div> <br> <br> <br>
+            <p>31-yanvargacha</p>
+          </div>
+          <div>
+            <img src="./img/no-commission.webp.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="pb-[100px]">
+        <h2 class="text-3xl font-bold text-purple-900 text-[40px]">
+          Uzum to‘lov bilan <br>
+          to‘lang
+        </h2>
+        <div class="flex justify-center gap-x-10 items-center bg-slate-300]">
+          <div class="flex flex-col justify-start items-start gap-7">
+            <h1 class="text-3xl font-medium text-[40px]">Kafe, do‘kon, dorixona, <br>
+              AYoQSh va yurtimiz boʻylab <br>
+              boshqa muassasalarda</h1>
+            <div class="text-pretty">
+              <p class="pb-[5px]">Uzum karta bilan to‘lov qilganda 5% gacha <br>
+                keshbek oling yoki bo‘lib to‘lang — 30 kun ichida <br>
+                to‘lasangiz, ortiqcha to‘lovlarsiz</p>
+            </div> <br> <br> <br>
+          </div>
+          <div>
+            <img src="./img/Picture → info image.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold text-purple-900 text-[40px]">
+        Dolzarb
+      </h2>
+      <div class="flex justify-around items-center flex-wrap gap-[30px]">
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+        <div
+          class="bg-slate-100 font-sans w-[460px] h-[252px] p-[25px] flex flex-col justify-between items-start rounded-xl">
+          <p>Yangiliklar</p>
+          <p>“UZUM BANK” AJ DA JISMONIY SHAXSLARGA <br>
+            BANK XIZMATLARI UCHUN TARIFLAR Tariflar <br>
+            2025 yil 20 dekabradan boshlab amal qiladi.</p>
+          <p class="text-purple-900"><a href="">Batafsil ></a></p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gradient-to-r from-purple-700 to-purple-600 text-white h-[650px]">
+    <div class="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between gap-8 border-b border-white/30">
+
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Yangiliklarga obuna bo‘ling</h3>
+        <div class="flex border border-white rounded-xl">
+          <input type="email" placeholder="Elektron pochta"
+            class="px-4 py-2 rounded-l-lg text-gray-800 bg-white outline-none w-64" />
+          <button class="bg-purple-900 px-5 py-2 rounded-r-xl hover:bg-purple-800">
+            Yuborish
+          </button>
+        </div>
+      </div>
+
+      <div class="text-right">
+        <p class="text-2xl font-bold">+998 78 777 07 99</p>
+        <a href="#" class="underline text-sm">Telegramda qo‘llab-quvvatlash</a>
+      </div>
+
+    </div>
+    <div class="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-5 gap-10">
+
+
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="./uzumbank-logo-dark.svg" alt="">
+        </div>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-3">Tariflar</h4>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-3">Bank haqida</h4>
+        <ul class="space-y-1 text-sm text-white/80">
+          <li>Rahbariyat</li>
+          <li>Bank rekvizitlari</li>
+          <li>Davlat ramzlari</li>
+          <li>Rivojlanish strategiyasi</li>
+          <li>Hujjatlar</li>
+          <li>Komplaens</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-3">Aksiyadorlar va investorlar</h4>
+        <ul class="space-y-1 text-sm text-white/80">
+          <li>Audit</li>
+          <li>Dividendlar</li>
+          <li>Korporativ boshqaruv</li>
+          <li>Moliyaviy ko‘rsatkichlar</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold  mb-3">Elektron pochta</h4>
+        <p class="text-sm">info@uzumbank.uz</p>
+        <h4 class="font-semibold mt-4 mb-2">Qayta aloqa</h4>
+        <a href="#" class="underline text-sm">Qayta aloqa</a>
+      </div>
+
+    </div>
+
+    <div
+      class="max-w-7xl mx-auto px-6 py-6 border-t border-white/30 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/70">
+
+      <div class="flex gap-4">
+        <div class="w-9 h-9 rounded-full bg-white text-purple-700 flex items-center justify-center font-bold">f</div>
+        <div class="w-9 h-9 rounded-full bg-white text-purple-700 flex items-center justify-center">✈</div>
+        <div class="w-9 h-9 rounded-full bg-white text-purple-700 flex items-center justify-center">✿</div>
+      </div>
+      <div class="absolute top-[3730px] left-[80px] bg-purple-950 flex">
+        <div class="flex items-end gap-2 bg-transparent">
+
+          <div class="w-2 h-8 bg-lime-500"></div>
+
+          <div class="text-white text-xs leading-tight">
+            <div class="font-semibold text-sm">61</div>
+            <div class="text-[10px] text-white/80">334519</div>
+            <div class="text-[10px] text-white/80">1263</div>
+            <div class="text-[10px] text-white/80">3020</div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <p>© 2019–2025 AJ Uzum Bank. Barcha huquqlar himoyalangan.</p>
+
+    </div>
+    
+  </footer>
+  <div id="profileModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm
+         flex items-center justify-center z-[999] hidden">
+
+    <div class="bg-white/70 backdrop-blur-lg
+              w-[1000px] h-[500px]
+              rounded-3xl shadow-2xl
+              flex overflow-hidden relative
+              animate-scale">
+
+      <button onclick="closeProfileModal()" class="absolute top-6 right-6 text-3xl text-gray-400 hover:text-black">
+        ✕
+      </button>
+
+      <div class="w-1/2 p-14 flex flex-col justify-center">
+        <h1 class="text-5xl font-bold text-black mb-4">Salom 👋</h1>
+
+        <p class="text-2xl text-gray-700 mb-2">Mening ismim:</p>
+
+        <p id="modalNick" class="text-4xl font-semibold text-black"></p>
+
+        <p id="modalMail" class="text-gray-600 mt-6 text-lg"></p>
+      </div>
+
+      <div class="w-1/2 flex items-center justify-center">
+        <img id="modalImg" class="w-[340px] h-[340px] object-cover rounded-2xl shadow-xl" alt="profile" />
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    @keyframes scaleIn {
+      from {
+        transform: scale(.85);
+        opacity: 0
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1
+      }
+    }
+
+    .animate-scale {
+      animation: scaleIn .35s ease-out;
+    }
+  </style>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

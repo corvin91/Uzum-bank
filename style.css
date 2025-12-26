@@ -1,0 +1,112 @@
+/* ORQA FON — tinchlantiruvchi */
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #eaf6ff, #ffffff, #e6f2ff);
+  background-size: 400% 400%;
+  animation: bgMove 18s ease infinite;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Fon animatsiya */
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* FORM */
+.form {
+  width: 360px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  border-radius: 24px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+  animation: fadeUp 1.2s ease forwards;
+}
+
+/* Form chiqish animatsiyasi */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* TITLE */
+.form-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* INPUT CONTAINER */
+.input-container {
+  margin-bottom: 18px;
+}
+
+/* INPUT */
+.input-container input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #dbeafe;
+  font-size: 15px;
+  outline: none;
+  background: #f8fbff;
+  transition: all 0.35s ease;
+}
+
+/* INPUT FOCUS */
+.input-container input:focus {
+  border-color: #93c5fd;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(147, 197, 253, 0.25);
+}
+
+/* BUTTON */
+.submit {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+/* BUTTON HOVER */
+.submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.4);
+}
+
+/* SIGNUP TEXT */
+.signup-link {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+/* SIGNUP LINK */
+.signup-link a {
+  color: #3b82f6;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #2563eb;
+}
